@@ -27,5 +27,5 @@ Q2='Error using vertcat Dimensions of matrices being concatenated are not consis
 %% Question 4
 C1=zeros(7,8),c1=diag([5 5 5 5 5 5 5]),c1(:,8)=[5 5 5 5 5 5 5]
 %% Question 5
-a(3,:)=[]
-a(:,3)=[]
+solve1=a(3,:)
+solve2=a(:,3)
